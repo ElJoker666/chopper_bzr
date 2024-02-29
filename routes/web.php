@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('index', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/registro', [RegisterController::class,'show'])->name('registro');
+
+Route::post('/register', [RegisterController::class,'register']);
+
+Route::get('/login', [LoginController::class,'show'])->name('login');
+
+Route::post('/login', [LoginController::class,'login']);
+
+Route::get('/home', [HomeController::class,'index'])->name('indexuser');
+
+Route::get('/logout', [LogoutController::class,'logout'])->name('logout');
+
+
