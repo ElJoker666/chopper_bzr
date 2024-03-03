@@ -26,45 +26,25 @@
                         <h1>Bienvenido a 
                             <span>Chopper Bzr</span>
                         </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, delectus, modi? Accusamus fuga itaque laborum modi nam ullam vel veniam! Beatae consectetur debitis ipsa ipsam iusto provident quod. Sit, voluptatum!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ea, earum eum eveniet ex, expedita id molestias nisi perspiciatis saepe vero voluptas voluptatum. Id, illum ipsum iste laboriosam placeat quo.
+                        <p>En Chopper Bzr nos enorgullece ofrecerte lo mejor en ropa deportiva, fusionando estilo y funcionalidad para que vivas tu pasión por el deporte con autenticidad y comodidad. Nuestra misión es proporcionar a nuestros clientes prendas de alta calidad que reflejen su energía y determinación.</p>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, delectus, modi? Accusamus fuga itaque laborum modi nam ullam vel veniam! Beatae consectetur debitis ipsa ipsam iusto provident quod. Sit, voluptatum!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ea, earum eum eveniet ex, expedita id molestias nisi perspiciatis saepe vero voluptas voluptatum. Id, illum ipsum iste laboriosam placeat quo.
+                        <p>Explora nuestra exclusiva colección de ropa deportiva, diseñada para adaptarse a tus necesidades y resaltar tu estilo único. Ya sea que estés buscando prendas para entrenamientos intensos, actividades al aire libre o simplemente para lucir a la moda, en Chopper Bzr encontrarás lo que necesitas.</p>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, delectus, modi? Accusamus fuga itaque laborum modi nam ullam vel veniam! Beatae consectetur debitis ipsa ipsam iusto provident quod. Sit, voluptatum!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ea, earum eum eveniet ex, expedita id molestias nisi perspiciatis saepe vero voluptas voluptatum. Id, illum ipsum iste laboriosam placeat quo.
+                        <p>En nuestro sitio web, te ofrecemos una experiencia de compra fácil y segura. Navega a través de nuestras categorías, descubre las últimas tendencias y encuentra esa pieza perfecta que elevará tu rendimiento y tu estilo. ¡Con Chopper Bzr, viste con confianza y alcanza tus metas!</p>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-me-image u-s-m-b-30">
                         <div class="banner-hover effect-border-scaling-gray">
-                            <img class="img-fluid" src="images/about/about-1.jpg" alt="About Picture">
+                            <img class="img-fluid" src="images/about/about-2.jpg" alt="About Picture" width="432">
                         </div>
                     </div>
                     <div class="about-social text-center u-s-m-b-30">
                         <ul class="social-media-list">
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com/profile.php?id=100095333974033">
                                     <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-rss"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-pinterest"></i>
                                 </a>
                             </li>
                         </ul>
