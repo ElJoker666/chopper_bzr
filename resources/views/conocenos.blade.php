@@ -3,14 +3,14 @@
     <div class="page-style-a">
         <div class="container">
             <div class="page-intro">
-                <h2>About</h2>
+                <h2>Conocenos</h2>
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
-                        <a href="home.html">Home</a>
+                        <a href="{{ route('index')}}">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="about.html">About</a>
+                        <a href="{{ route('conocenos')}}">Conocenos</a>
                     </li>
                 </ul>
             </div>
@@ -23,8 +23,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-me-info u-s-m-b-30">
-                        <h1>Welcome to
-                            <span>Groover</span>
+                        <h1>Bienvenido a 
+                            <span>Chopper Bzr</span>
                         </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, delectus, modi? Accusamus fuga itaque laborum modi nam ullam vel veniam! Beatae consectetur debitis ipsa ipsam iusto provident quod. Sit, voluptatum!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ea, earum eum eveniet ex, expedita id molestias nisi perspiciatis saepe vero voluptas voluptatum. Id, illum ipsum iste laboriosam placeat quo.
                         </p>

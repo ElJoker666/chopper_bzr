@@ -233,7 +233,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Conocenos
+                                <a href="{{ route('conocenos')}}">Conocenos
                                 </a>
                             </li>
                             <li>
