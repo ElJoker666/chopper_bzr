@@ -29,7 +29,10 @@
                             <h2 class="account-h2 u-s-m-b-20">Login</h2>
                             <h6 class="account-h6 u-s-m-b-30">Bienvenido! Inicia sesion en tu cuenta.</h6>
                             <form action="/login" method="POST">
+                                <div class="u-s-m-b-30">
                                 @csrf
+                                @include('mensajes')
+                                </div>
                                 <div class="u-s-m-b-30">
                                     <label for="user-name-email">E-mail o tu nombre de Usuario
                                         <span class="astk">*</span>
