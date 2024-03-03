@@ -237,7 +237,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Ubicanos
+                                <a href="{{ route('ubicanos')}}">Ubicanos
                                 </a>
                             </li>
                             <li>
