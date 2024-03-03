@@ -25,6 +25,10 @@ Route::get('/index', function () {
     return view('index');
 })->name('index');
 
+Route::get('/conocenos', function () {
+    return view('conocenos');
+})->name('conocenos');
+
 Route::get('/registro', [RegisterController::class,'show'])->name('registro');
 
 Route::post('/register', [RegisterController::class,'register']);
