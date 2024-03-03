@@ -228,7 +228,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Productos
+                                <a href="">Productos
                                 <span class="superscript-label-new">NEW</span>
                                 </a>
                             </li>
@@ -241,7 +241,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Carrito
+                                <a href="">Carrito
                                 </a>
                             </li>
                           
