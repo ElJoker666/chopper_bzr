@@ -17,14 +17,22 @@ class LoginController extends Controller
     }
     public function login(LoginRequest $request){
         $credentials = $request->getCredentials();
-
-        if(!Auth::validate($credentials)){
-            return redirect()->to('/login')->withErrors('Fallo tu inicio de sesion, checa tus variables');
+    
+        if (Auth::attempt($credentials)) {
+            // Autenticación exitosa
+            if (auth()->user()->role == 'admin') {
+                return redirect()->route('admin.index');
+            } else {
+                // Otro tipo de usuario
+                return redirect()->route('indexuser');
+            }
+        } else {
+            // Autenticación fallida
+            return redirect()->to('/login')->withErrors('Fallo tu inicio de sesión, checa tus credenciales');
         }
-        $user = Auth::getProvider()->retrieveByCredentials($credentials);
-        Auth::login($user);
-        return $this->authenticated($request, $user);
+        
     }
+    
     public function authenticated(Request $request, $user){
         return redirect('/home');
     }

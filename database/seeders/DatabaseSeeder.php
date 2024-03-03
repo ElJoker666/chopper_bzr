@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -19,5 +20,13 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call(ProductsTableSeeder::class);
+
+        $user = new User;
+        $user->name = 'admin';
+        $user->email = 'admin@gmail.com';
+        $user->password = '1234';
+        $user->role = 'admin';
+
+        $user->save();
     }
 }
