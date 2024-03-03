@@ -30,10 +30,7 @@
                             <h2 class="account-h2 u-s-m-b-20">Registro</h2>
                             <h6 class="account-h6 u-s-m-b-30">Registrate a este sitio para ver las mejores ofertas en el mercado.</h6>
                             <form action="/register" method="POST">
-                                <div class="u-s-m-b-30">
                                 @csrf
-                                    @include('mensajes')
-                                </div>
                                 <div class="u-s-m-b-30">
                                     <label for="user-name">Usuario
                                         <span class="astk">*</span>

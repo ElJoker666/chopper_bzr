@@ -67,13 +67,13 @@
                             <ul class="g-dropdown" style="width:200px">
                                 <li>
                                     <a href="{{ route('registro')}}">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Registrate</a>
+                                        Registrate
+                                        <i class="fa-solid fa-users"></i></a>
                                 </li>
                                 <li>
                                     <a href="{{ route('login')}}">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Inicio</a>
+                                        Inicia sesion
+                                        <i class="fa-solid fa-user"></i></a>
                                 </li>
                             </ul>
                         </li>
@@ -100,29 +100,7 @@
                             <label class="sr-only" for="search-landscape">Search</label>
                             <input id="search-landscape" type="text" class="text-field" placeholder="Buscar">
                             <div class="select-box-position">
-                                <div class="select-box-wrapper select-hide">
-                                    <label class="sr-only" for="select-category">Choose category for search</label>
-                                    <select class="select-box" id="select-category">
-                                        <option selected="selected" value="">
-                                            All
-                                        </option>
-                                        <option value="">Mens Clothing</option>
-                                        <option value="">Womens Clothing
-                                        </option>
-                                        <option value="">Toys Hobbies & Robots
-                                        </option>
-                                        <option value="">Mobiles & Tablets
-                                        </option>
-                                        <option value="">Consumer Electronics
-                                        </option>
-                                        <option value="">Books & Audible
-                                        </option>
-                                        <option value="">Beauty & Health
-                                        </option>
-                                        <option value="">Furniture Home & Office
-                                        </option>
-                                    </select>
-                                </div>
+                              
                             </div>
                             <button id="btn-search" type="submit" class="button button-primary fas fa-search"></button>
                         </form>
@@ -138,8 +116,8 @@
                                 <li>
                                     <a id="mini-cart-trigger">
                                         <i class="ion ion-md-basket"></i>
-                                        <span class="item-counter"></span>
-                                        <span class="item-price"></span>
+                                        <span class="">0</span>
+                                        <span class="item-price">0</span>
                                     </a>
                                 </li>
                             </ul>
@@ -149,71 +127,6 @@
             </div>
         </div>
         <!-- Mid-Header /- -->
-        <!-- Responsive-Buttons -->
-        <div class="fixed-responsive-container">
-            <div class="fixed-responsive-wrapper">
-                <button type="button" class="button fas fa-search" id="responsive-search"></button>
-            </div>
-            <div class="fixed-responsive-wrapper">
-                <a href="wishlist.html">
-                    <i class="far fa-heart"></i>
-                    <span class="fixed-item-counter">4</span>
-                </a>
-            </div>
-        </div>
-        <!-- Responsive-Buttons /- -->
-        <!-- Mini Cart -->
-        <div class="mini-cart-wrapper">
-            <div class="mini-cart">
-                <div class="mini-cart-header">
-                    YOUR CART
-                    <button type="button" class="button ion ion-md-close" id="mini-cart-close"></button>
-                </div>
-                <ul class="mini-cart-list">
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Casual Hoodie Full Cotton</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Black Rock Dress with High Jewelery Necklace</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Xiaomi Note 2 Black Color</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Dell Inspiron 15</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="mini-shop-total clearfix">
-                    <span class="mini-total-heading float-left">Total:</span>
-                    <span class="mini-total-price float-right">$220.00</span>
-                </div>
-                <div class="mini-action-anchors">
-                    <a href="cart.html" class="cart-anchor">View Cart</a>
-                    <a href="checkout.html" class="checkout-anchor">Checkout</a>
-                </div>
-            </div>
-        </div>
-        <!-- Mini Cart /- -->
         <!-- Bottom-Header -->
         <div class="full-layer-bottom-header">
             <div class="container">
@@ -228,7 +141,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">Productos
+                                <a href="{{ route('login')}}">Productos
                                 <span class="superscript-label-new">NEW</span>
                                 </a>
                             </li>
@@ -241,7 +154,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">Carrito
+                                <a href="{{ route('login')}}">Carrito
                                 </a>
                             </li>
                           
@@ -669,6 +582,7 @@ ga('send', 'pageview')
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <!-- Main -->
 <script type="text/javascript" src="js/app.js"></script>
+<script src="https://kit.fontawesome.com/8325e49c78.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
