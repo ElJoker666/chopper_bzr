@@ -67,18 +67,21 @@
                             <ul class="g-dropdown" style="width:200px">
                                 <li>
                                     <a href="">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Cuenta</a>
+                                        <i class="fa-solid fa-user u-s-m-l-9"></i>
+                                    Cuenta    
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('login')}}">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Carrito</a>
+                                    <a href="{{ route('cart.index')}}">
+                                        <i class="fa-solid fa-cart-shopping u-s-m-l-9"></i>
+                                    Carrito    
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="{{ route('logout')}}">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Cerrar Sesion</a>
+                                        <i class="fa-solid fa-right-from-bracket u-s-m-l-9"></i>
+                                    Salir de la sesion  
+                                    </a>
                                 </li>
                             </ul>
                         </li>
@@ -95,7 +98,7 @@
                 <div class="row clearfix align-items-center">
                     <div class="col-lg-3 col-md-9 col-sm-6">
                         <div class="brand-logo text-lg-center">
-                            <a href="{{ route('index')}}">
+                            <a href="{{ route('indexuser')}}">
                                 <img src="images/main-logo/groover-branding-1.png" alt="Groover Brand Logo" class="app-brand-logo">
                             </a>
                         </div>
@@ -104,31 +107,7 @@
                         <form class="form-searchbox">
                             <label class="sr-only" for="search-landscape">Search</label>
                             <input id="search-landscape" type="text" class="text-field" placeholder="Buscar">
-                            <div class="select-box-position">
-                                <div class="select-box-wrapper select-hide">
-                                    <label class="sr-only" for="select-category">Choose category for search</label>
-                                    <select class="select-box" id="select-category">
-                                        <option selected="selected" value="">
-                                            All
-                                        </option>
-                                        <option value="">Mens Clothing</option>
-                                        <option value="">Womens Clothing
-                                        </option>
-                                        <option value="">Toys Hobbies & Robots
-                                        </option>
-                                        <option value="">Mobiles & Tablets
-                                        </option>
-                                        <option value="">Consumer Electronics
-                                        </option>
-                                        <option value="">Books & Audible
-                                        </option>
-                                        <option value="">Beauty & Health
-                                        </option>
-                                        <option value="">Furniture Home & Office
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
+                           
                             <button id="btn-search" type="submit" class="button button-primary fas fa-search"></button>
                         </form>
                     </div>
@@ -136,15 +115,15 @@
                         <nav>
                             <ul class="mid-nav g-nav">
                                 <li class="u-d-none-lg">
-                                    <a href="{{ route('index')}}">
+                                    <a href="{{ route('indexuser')}}">
                                         <i class="ion ion-md-home u-c-brand"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a id="mini-cart-trigger">
+                                    <a id="mini-cart-trigger" href="{{ route('cart.index')}}">
                                         <i class="ion ion-md-basket"></i>
-                                        <span class="item-counter"></span>
-                                        <span class="item-price"></span>
+                                        <span class="item-counter">{{ \Cart::getTotalQuantity()}}</span>
+                                        <span class="item-price">${{ \Cart::getTotal() }}</span>
                                     </a>
                                 </li>
                             </ul>
@@ -154,71 +133,6 @@
             </div>
         </div>
         <!-- Mid-Header /- -->
-        <!-- Responsive-Buttons -->
-        <div class="fixed-responsive-container">
-            <div class="fixed-responsive-wrapper">
-                <button type="button" class="button fas fa-search" id="responsive-search"></button>
-            </div>
-            <div class="fixed-responsive-wrapper">
-                <a href="wishlist.html">
-                    <i class="far fa-heart"></i>
-                    <span class="fixed-item-counter">4</span>
-                </a>
-            </div>
-        </div>
-        <!-- Responsive-Buttons /- -->
-        <!-- Mini Cart -->
-        <div class="mini-cart-wrapper">
-            <div class="mini-cart">
-                <div class="mini-cart-header">
-                    YOUR CART
-                    <button type="button" class="button ion ion-md-close" id="mini-cart-close"></button>
-                </div>
-                <ul class="mini-cart-list">
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Casual Hoodie Full Cotton</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Black Rock Dress with High Jewelery Necklace</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Xiaomi Note 2 Black Color</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                    <li class="clearfix">
-                        <a href="single-product.html">
-                            <img src="images/product/product@1x.jpg" alt="Product">
-                            <span class="mini-item-name">Dell Inspiron 15</span>
-                            <span class="mini-item-price">$55.00</span>
-                            <span class="mini-item-quantity"> x 1 </span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="mini-shop-total clearfix">
-                    <span class="mini-total-heading float-left">Total:</span>
-                    <span class="mini-total-price float-right">$220.00</span>
-                </div>
-                <div class="mini-action-anchors">
-                    <a href="cart.html" class="cart-anchor">View Cart</a>
-                    <a href="checkout.html" class="checkout-anchor">Checkout</a>
-                </div>
-            </div>
-        </div>
-        <!-- Mini Cart /- -->
         <!-- Bottom-Header -->
         <div class="full-layer-bottom-header">
             <div class="container">
@@ -229,29 +143,29 @@
                     <div class="col-lg-9">
                         <ul class="bottom-nav g-nav u-d-none-lg">
                             <li>
-                                <a href="{{ route('index')}}">Inicio
+                                <a href="{{ route('indexuser')}}">Inicio
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Productos
+                                <a href="{{ route('shop')}}">Productos
                                 <span class="superscript-label-new">NEW</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Conocenos
+                                <a href="">Conocenos
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Ubicanos
+                                <a href="">Ubicanos
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Carrito
+                                <a href="{{ route('cart.index')}}">Carrito
                                 </a>
                             </li>
                           
                             <li>
-                                <a href="{{ route('registro')}}">Cuenta
+                                <a href="">Cuenta
                                 </a>
                             </li>
                         </ul>
@@ -674,6 +588,6 @@ ga('send', 'pageview')
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <!-- Main -->
 <script type="text/javascript" src="js/app.js"></script>
-
+<script src="https://kit.fontawesome.com/8325e49c78.js" crossorigin="anonymous"></script>
 </body>
 </html>

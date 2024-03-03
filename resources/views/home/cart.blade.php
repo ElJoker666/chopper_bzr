@@ -102,7 +102,7 @@
                             <li class="list-group-item"><b>Total: </b>${{ \Cart::getTotal() }}</li>
                         </ul>
                     </div>
-                    <br><a href="home.shop" class="btn btn-dark">Continue en la tienda</a>
+                    <br><a href="/shop" class="btn btn-dark">Continue en la tienda</a>
                     <hr><a href="/checkout" class="btn btn-success">Proceder al Checkout</a>
                 </div>
             @endif

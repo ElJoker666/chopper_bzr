@@ -116,8 +116,8 @@
                                 <li>
                                     <a id="mini-cart-trigger">
                                         <i class="ion ion-md-basket"></i>
-                                        <span class="">0</span>
-                                        <span class="item-price">0</span>
+                                        <span class="item-counter">0</span>
+                                        <span class="item-price">$0</span>
                                     </a>
                                 </li>
                             </ul>
