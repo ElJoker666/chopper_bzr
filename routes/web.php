@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
@@ -69,5 +70,16 @@ Route::resource('products', ProductController::class)->names([
     'update'  => 'products.update',
     'destroy' => 'products.destroy',
 ]);
+
+Route::resource('users', UserController::class)->names([
+    'index'   => 'users.index',
+    'create'  => 'users.create',
+    'store'   => 'users.store',
+    'show'    => 'users.show',
+    'edit'    => 'users.edit',
+    'update'  => 'users.update',
+    'destroy' => 'users.destroy',
+]);
+
 
 

@@ -16,7 +16,7 @@
                 <div class="card-body">
                   <p>Que es lo quieres hacer: </p>
                   <a class="btn btn-primary" href="{{ route('products.create') }}" role="button">Agregar Productos</a>
-                  <a class="btn btn-primary" href="#" role="button">Agregar usuarios</a>
+                  <a class="btn btn-primary" href="{{ route('users.index') }}" role="button">Ver usuarios</a>
                 </div>
             </div>
             

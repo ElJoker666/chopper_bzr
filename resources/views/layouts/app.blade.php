@@ -63,7 +63,7 @@
                   <a class="nav-link mx-2" href="{{ route('products.index')}}"><i class="fa-solid fa-shirt"></i> CRUD productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-2" href="#!"><i class="fa-solid fa-users"></i> CRUD usuarios </a>
+                  <a class="nav-link mx-2" href="{{ route('users.index')}}"><i class="fa-solid fa-users"></i> CRUD usuarios </a>
                 </li>
                 <li class="nav-item ms-3">
                   <a class="btn btn-black btn-rounded" href="{{ route('logout')}}"><i class="fa-solid fa-right-from-bracket"></i> Salir</a>
