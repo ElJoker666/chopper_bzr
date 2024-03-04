@@ -21,7 +21,7 @@ return new class extends Migration
             $table->text('description');
             $table->integer('category_id');
             $table->unsignedInteger('brand_id')->unsigned();
-            $table->string('image_path');
+            $table->string('image_path')->nullable(); 
             $table->timestamps();
 
         });

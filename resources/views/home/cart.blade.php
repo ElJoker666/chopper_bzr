@@ -51,7 +51,7 @@
                     <h4>{{ \Cart::getTotalQuantity()}} Producto(s) en el carrito</h4><br>
                 @else
                     <h4>No Product(s) In Your Cart</h4><br>
-                    <a href="home.shop" class="btn btn-dark">Continue en la tienda</a>
+                    <a href="/shop" class="btn btn-dark">Continue en la tienda</a>
                 @endif
 
                 @foreach($cartCollection as $item)

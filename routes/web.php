@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
@@ -58,3 +59,15 @@ Route::post('/clear', [CartController::class, 'clear'])->name('cart.clear');
 Route::get('/admin', [AdminController::class,'index'])
 ->middleware('auth.admin')
 ->name('admin.index');
+
+Route::resource('products', ProductController::class)->names([
+    'index'   => 'products.index',
+    'create'  => 'products.create',
+    'store'   => 'products.store',
+    'show'    => 'products.show',
+    'edit'    => 'products.edit',
+    'update'  => 'products.update',
+    'destroy' => 'products.destroy',
+]);
+
+
