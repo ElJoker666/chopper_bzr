@@ -24,7 +24,7 @@
         <div class="container">
             <div class="image-banner">
                 <a href="shop-v1-root-category.html" class="mx-auto banner-hover effect-dark-opacity">
-                    <img class="img-fluid" src="images/banners/bannerlayer-1.jpg" alt="Winter Season Banner">
+                    <img class="img-fluid" src="images/banners/CHOPPEROFERTAS.jpg" alt="Winter Season Banner">
                 </a>
             </div>
         </div>
@@ -73,7 +73,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="images/product/monkyshirt.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -121,7 +121,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="images/product/suprim.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -169,7 +169,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="images/product/dragon.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -217,7 +217,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="images/product/dva.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -273,7 +273,7 @@
         <div class="container">
             <div class="image-banner u-s-m-y-40">
                 <a href="shop-v1-root-category.html" class="mx-auto banner-hover effect-dark-opacity">
-                    <img class="img-fluid" src="images/banners/ban-men.jpg" alt="Banner Image">
+                    <img class="img-fluid" src="images/banners/prend.png" alt="Banner Image">
                 </a>
             </div>
         </div>

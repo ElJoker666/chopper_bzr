@@ -91,7 +91,7 @@
                     <div class="col-lg-3 col-md-9 col-sm-6">
                         <div class="brand-logo text-lg-center">
                             <a href="{{ route('index')}}">
-                                <img src="images/main-logo/groover-branding-1.png" alt="Groover Brand Logo" class="app-brand-logo">
+                                <img src="images/main-logo/groover-branding-1.png" alt="ChopperLogo" class="app-brand-logo">
                             </a>
                         </div>
                     </div>
