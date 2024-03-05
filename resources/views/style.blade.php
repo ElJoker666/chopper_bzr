@@ -78,7 +78,7 @@
                             </ul>
                         </li>
                         <li>
-                            
+
                     </ul>
                 </nav>
             </div>
@@ -100,7 +100,7 @@
                             <label class="sr-only" for="search-landscape">Search</label>
                             <input id="search-landscape" type="text" class="text-field" placeholder="Buscar">
                             <div class="select-box-position">
-                              
+
                             </div>
                             <button id="btn-search" type="submit" class="button button-primary fas fa-search"></button>
                         </form>
@@ -132,7 +132,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3">
-                     
+
                     </div>
                     <div class="col-lg-9">
                         <ul class="bottom-nav g-nav u-d-none-lg">
@@ -157,7 +157,7 @@
                                 <a href="{{ route('login')}}">Carrito
                                 </a>
                             </li>
-                          
+
                             <li>
                                 <a href="{{ route('registro')}}">Cuenta
                                 </a>
@@ -181,71 +181,71 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="footer-list">
-                            <h6>CUSTOMER SERVICE</h6>
+                            <h6>Servicio personalizado</h6>
                             <ul>
                                 <li>
-                                    <a href="faq.html">FAQs</a>
+                                    <a href="faq.html">Pacas de ropa</a>
                                 </li>
                                 <li>
-                                    <a href="track-order.html">Track Order</a>
+                                    <a href="track-order.html">Previas exclusivas</a>
                                 </li>
                                 <li>
-                                    <a href="terms-and-conditions.html">Terms & Conditions</a>
+                                    <a href="terms-and-conditions.html">Terminos y condiciones</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="footer-list">
-                            <h6>COMPANY</h6>
+                            <h6>Chopper bzr</h6>
                             <ul>
                                 <li>
                                     <a href="home.html">Home</a>
                                 </li>
                                 <li>
-                                    <a href="about.html">About</a>
+                                    <a href="about.html">Sobre mí</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <a href="contact.html">Contacto</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="footer-list">
-                            <h6>INFORMATION</h6>
+                            <h6>Información</h6>
                             <ul>
                                 <li>
-                                    <a href="store-directory.html">Categories Directory</a>
+                                    <a href="store-directory.html">Categorias</a>
                                 </li>
                                 <li>
-                                    <a href="wishlist.html">My Wishlist</a>
+                                    <a href="wishlist.html">Mi lista de favoritos</a>
                                 </li>
                                 <li>
-                                    <a href="cart.html">My Cart</a>
+                                    <a href="cart.html">Mi carrito</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="footer-list">
-                            <h6>Address</h6>
+                            <h6>Dirección</h6>
                             <ul>
                                 <li>
                                     <i class="fas fa-location-arrow u-s-m-r-9"></i>
-                                    <span>819 Sugar Camp Road, West Concord, MN 55985</span>
+                                    <span>C 15 1097 Fracc Nuevo Mirasierra</span>
                                 </li>
                                 <li>
-                                    <a href="tel:+923086561801">
+                                    <a href="tel:+52 1 844 334 0771">
                                         <i class="fas fa-phone u-s-m-r-9"></i>
-                                        <span>+111-444-989</span>
+                                        <span>+52 1 844 334 0771</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:contact@domain.com">
+                                    <a href="chopperBzruwu@gmail.com">
                                         <i class="fas fa-envelope u-s-m-r-9"></i>
                                         <span>
-                                            contact@domain.com</span>
+                                            chopperBzruwu@gmail.com</span>
                                     </a>
                                 </li>
                             </ul>
