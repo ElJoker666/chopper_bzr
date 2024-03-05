@@ -291,9 +291,9 @@
                                 <i class="ion ion-md-star"></i>
                             </div>
                             <h2>
-                                Great Value
+                                Valor
                             </h2>
-                            <p>We offer competitive prices on our 100 million plus product range</p>
+                            <p>Ofrecemos precios competitivos en nuestra gama de más de 100 productos.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
@@ -302,9 +302,9 @@
                                 <i class="ion ion-md-cash"></i>
                             </div>
                             <h2>
-                                Shop with Confidence
+                            Compra con confianza
                             </h2>
-                            <p>Our Protection covers your purchase from click to delivery</p>
+                            <p>Nuestra Protección cubre su compra desde el clic hasta la entrega</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
