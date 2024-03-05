@@ -313,9 +313,9 @@
                                 <i class="ion ion-ios-card"></i>
                             </div>
                             <h2>
-                                Safe Payment
+                            Pago seguro
                             </h2>
-                            <p>Pay with the world’s most popular and secure payment methods</p>
+                            <p>Pague con los métodos de pago más populares y seguros del mundo</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
@@ -324,9 +324,9 @@
                                 <i class="ion ion-md-contacts"></i>
                             </div>
                             <h2>
-                                24/7 Help Center
+                            atención al cliente 24 horas al día, 7 días a la semana
                             </h2>
-                            <p>Round-the-clock assistance for a smooth shopping experience</p>
+                            <p>Asistencia las 24 horas para una experiencia de compra fluida</p>
                         </div>
                     </div>
                 </div>
